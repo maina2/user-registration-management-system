@@ -8,7 +8,16 @@ body{
     background-image: url(./image.jpg) ;
 }
 
+section{
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+
+}
+
 .navbar{
+    position: fixed;
     display: flex;
     align-items: center;
     width: 99%;
@@ -95,10 +104,49 @@ option{
     color:#2F4F4F;
 }
 
-button{
+form > button{
     margin-top: 14px;
     border:#A9A9A9 ;
     height: 40px;
     width: 70px;
-    color: #696969;
+    color: black;
+    background-color: #696969A9;
+    font-weight: bolder;
+}
+
+table{
+    align-self: center;
+    margin-top: 50px;
+    
+}
+
+tr{ border: 1px solid black;
+    /* width: 250px; */
+    height: 30px;
+    background-color: #DCDCDC;
+
+}
+td{ border: 1px solid black;
+    width: 250px;
+    height: 40px;
+    text-align: center;
+
+}
+th{
+    border: 1px solid black;
+
+}
+
+button{
+    width: 130px;
+    height: 35px;
+    background-color: red;
+    border: none;
+    border-radius: 4px;
+    /* text-align: center; */
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
 }

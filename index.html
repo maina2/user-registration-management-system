@@ -13,44 +13,135 @@
   </head>
   <body>
     <div class="navbar">
-      <i id="home" class="fa fa-house"></i>
-      <a href="./users.html"><i class="fa fa-user"></i></a>
+      <a href="#home"><i id="#home" class="fa fa-house"></i></a>
       
+      <a href="#users"><i id="#users" class="fa fa-user"></i></a>
+      
+    <!-- 
+       -->
 
     </div>
 
-    <div class="container">
-        <form action="">
-            <h3>User registration</h3>
-            <label for="name">User's name</label>
-            <input type="text" id="name" placeholder="John Doe">,<br>
-            <label for="id">Id number</label>
-            <input type="text" id="id" placeholder="20515815"><br>
-            
-            <label for="country">Country</label><br>
-            <select name="country" id="country">Country
-                <option value="Kenya">Kenya</option>
-                <option value="Spain">Spain</option>
-                <option value="Australia">Australia</option>
-                <option value="Columbia">Columbia</option>
-                
-            </select>
-            <br>
-            <label for="languages">Languages</label>
-            <br>
-            <select name="languages" id="languages">
-                <option value="English">English</option>
-                <option value="French">French</option>
-                <option value="Spanish">Spanish</option>
-                <option value="Swahili">Swahili</option>
-            </select>
-
-            <button>Submit</button>
     
-        </form>
+
+      <section id="home">
+
+        <form action="">
+          <h3>User registration</h3>
+          <label for="name">User's name</label>
+          <input type="text" id="name" placeholder="John Doe">,<br>
+          <label for="id">Id number</label>
+          <input type="text" id="id" placeholder="20515815"><br>
+          
+          <label for="country">Country</label><br>
+          <select name="country" id="country">Country
+              <option value="Kenya">Kenya</option>
+              <option value="Spain">Spain</option>
+              <option value="Australia">Australia</option>
+              <option value="Columbia">Columbia</option>
+              
+          </select>
+          <br>
+          <label for="languages">Languages</label>
+          <br>
+          <select name="languages" id="languages">
+              <option value="English">English</option>
+              <option value="French">French</option>
+              <option value="Spanish">Spanish</option>
+              <option value="Swahili">Swahili</option>
+          </select>
+
+          <button>Submit</button>
+  
+      </form>
 
 
-    </div>
+
+      </section>
+
+      <section id="users">
+
+        <table id="table">
+          <thead>
+            <tr>
+              <th>User name</th>
+              <th id="number">ID number</th>
+              <th id="country">Country</th>
+              <th id="languages">Languages</th>
+              <th class="delete"> Delete</th>
+            </tr>
+
+          </thead>
+          <tbody>
+
+             <tr>
+              <td>Federico Cheisa</td>
+              <td id="number">38766</td>
+              <td id="country">Germany</td>
+              <td id="languages">German</td>
+              <td><button>Delete</button></td>
+            </tr>
+            
+            <tr>
+                <td></td>
+                <td id="number"></td>
+                <td id="country"></td>
+                <td id="languages"></td>
+                <td><button>Delete</button></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td id="number"></td>
+                <td id="country"></td>
+                <td id="languages"></td>
+                <td><button>Delete</button></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td id="number"></td>
+                <td id="country"></td>
+                <td id="languages"></td>
+                <td><button>Delete</button></td>
+            </tr>
+                
+            </tr>
+            <tr>
+                <td></td>
+                <td id="number"></td>
+                <td id="country"></td>
+                <td id="languages"></td>
+                <td><button>Delete</button></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td id="number"></td>
+                <td id="country"></td>
+                <td id="languages"></td>
+                <td><button>Delete</button></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td id="number"></td>
+                <td id="country"></td>
+                <td id="languages"></td>
+                <td><button>Delete</button></td>
+            </tr>
+
+          </tbody>
+          
+          
+  
+  
+          
+        </table>
+  
+
+
+      </section>
+        
+
+
+    
 
     <div class="table">
         
@@ -60,5 +151,6 @@
     
 
     <link rel="stylesheet" href="script.js" />
+    <script type="javascript" src="./script.js"></script>
   </body>
 </html>
