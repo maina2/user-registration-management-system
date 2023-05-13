@@ -51,7 +51,7 @@
               <option value="Swahili">Swahili</option>
           </select>
 
-          <button>Submit</button>
+          <button onclick="onFormSubmit()">Submit</button>
   
       </form>
 
@@ -65,16 +65,16 @@
           <thead>
             <tr>
               <th>User name</th>
-              <th id="number">ID number</th>
-              <th id="country">Country</th>
-              <th id="languages">Languages</th>
-              <th class="delete"> Delete</th>
+              <th>ID number</th>
+              <th>Country</th>
+              <th>Languages</th>
+              <th> Delete</th>
             </tr>
 
           </thead>
-          <tbody>
+          <tbody id="body">
 
-             <tr>
+             <!-- <tr>
               <td>Federico Cheisa</td>
               <td id="number">38766</td>
               <td id="country">Germany</td>
@@ -125,7 +125,7 @@
                 <td id="country"></td>
                 <td id="languages"></td>
                 <td><button>Delete</button></td>
-            </tr>
+            </tr> -->
 
           </tbody>
           
@@ -138,19 +138,9 @@
 
 
       </section>
-        
-
-
-    
-
-    <div class="table">
-        
-
-    </div>
+      
 
     
-
-    <link rel="stylesheet" href="script.js" />
-    <script type="javascript" src="./script.js"></script>
+    <script src="./script.js"></script>
   </body>
 </html>
