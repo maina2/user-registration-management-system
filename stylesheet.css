@@ -153,8 +153,11 @@ button{
     display: flex;
     margin-left: auto;
     margin-right: auto;
+    display: inline-flex;
+    margin-bottom: 3px;
+    margin-top: 3px;
 }
 
-.green{
+#green{
     background-color: green;
 }

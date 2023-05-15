@@ -20,7 +20,7 @@ function onFormSubmit() {
     countryCell.textContent = countryInput.value;
     languageCell.textContent = languageInput.value;
     actionsCell.innerHTML =
-      '<button id="green", onclick="editUser(this)">Edit</button> <button onclick="deleteUser(this)">Delete</button>';
+      '<button id="green", onclick="onEdit(this)">Edit</button> <button onclick="deleteUser(this)">Delete</button>';
 
     nameInput.value = "";
     idNumberInput.value = "";
@@ -37,4 +37,5 @@ function onFormSubmit() {
       document.getElementById('languages').value = selectedRow.cells[3].innerHTML;
 
   }
+
 
